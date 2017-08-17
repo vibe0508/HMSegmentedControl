@@ -237,5 +237,6 @@ typedef NS_ENUM(NSInteger, HMSegmentedControlType) {
 
 //Protected
 - (CGRect)frameForSelectionIndicator;
+- (CGSize)measureTitleAtIndex:(NSUInteger)index;
 
 @end
